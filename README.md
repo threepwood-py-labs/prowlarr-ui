@@ -7,7 +7,6 @@ Built with PySide6 (Qt for Python).
 ## Table of Contents
 
 - [Features](#features)
-- [UI Walkthrough](#ui-walkthrough)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -31,26 +30,6 @@ Built with PySide6 (Qt for Python).
 - **Keyboard-driven** - full keyboard navigation with single-key shortcuts for common actions
 - **Custom commands** - bind F2/F3/F4 to your own scripts with `{title}` and `{video}` placeholders
 - **Paginated results** - navigate through large result sets page by page or load all pages at once
-
-## UI Walkthrough
-
-1. Configure query, indexers, and categories, then review result quality.
-
-   ![Configure query and review results](docs/images/ui-01-overview.png)
-
-   Overview state with search controls, grouped results, and key quality columns.
-
-2. Filter duplicates and verify already-on-disk matches.
-
-   ![Filter duplicates and verify matches](docs/images/ui-02-workflow.png)
-
-   Workflow state with Everything-marked rows for safe duplicate-aware selection.
-
-3. Execute download actions from a focused queue.
-
-   ![Execute download actions](docs/images/ui-03-details.png)
-
-   Action-focused state for selecting rows and triggering downloads confidently.
 
 ## Requirements
 
