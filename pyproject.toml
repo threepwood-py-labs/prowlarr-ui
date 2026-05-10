@@ -32,6 +32,9 @@ Homepage = "https://github.com/threepwood-py-labs/prowlarr-ui"
 Repository = "https://github.com/threepwood-py-labs/prowlarr-ui"
 Issues = "https://github.com/threepwood-py-labs/prowlarr-ui/issues"
 
+[project.scripts]
+prowlarr-ui = "prowlarr_ui.app:main"
+
 [tool.hatch.env]
 installer = "uv"
 
