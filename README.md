@@ -7,6 +7,7 @@ Built with PySide6 (Qt for Python).
 ## Table of Contents
 
 - [Features](#features)
+- [User Guide](#user-guide)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -30,6 +31,12 @@ Built with PySide6 (Qt for Python).
 - **Keyboard-driven** - full keyboard navigation with single-key shortcuts for common actions
 - **Custom commands** - bind F2/F3/F4 to your own scripts with `{title}` and `{video}` placeholders
 - **Paginated results** - navigate through large result sets page by page or load all pages at once
+
+## User Guide
+
+Start with the [user guide](docs/user-guide.md) for first-run setup, Prowlarr
+connection details, Everything integration, daily search workflows, and
+troubleshooting.
 
 ## Requirements
 
@@ -219,6 +226,8 @@ prowlarr-ui/
 |       |-- run_app_gui.pyw                # Launch GUI without console window
 |       `-- run_tests.py                   # Run tests via hatch run test
 |-- docs/
+|   |-- README.md
+|   |-- user-guide.md
 |   `-- architecture.md                    # Threading and ownership model
 |-- tests/
 |   |-- unit/                              # Unit/regression tests
