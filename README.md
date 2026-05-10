@@ -34,7 +34,7 @@ Built with PySide6 (Qt for Python).
 ## Requirements
 
 - **Windows** (10 or later)
-- **Python 3.10+**
+- **Python 3.13+**
 - **Prowlarr** instance with API access
 - **Everything** (optional) - for duplicate detection via SDK or HTTP server
 
