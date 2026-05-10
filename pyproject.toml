@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "prowlarr-ui"
-version = "0.1.0"
+version = "0.1.1"
 description = "Windows desktop application for searching Prowlarr indexers with Everything integration."
 readme = "README.md"
 license = { text = "MIT" }
