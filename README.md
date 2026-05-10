@@ -310,13 +310,21 @@ hatch run test
 Run CI-equivalent quality gates locally:
 
 ```bat
-hatch run lint
-hatch run format-check
-hatch run typecheck
-hatch run cov
-hatch run audit
-hatch run audit-clean
-hatch run package
+hatch run lint:check
+hatch run lint:fmt
+hatch run lint:types
+hatch run lint:deps
+hatch run lint:deadcode
+hatch run lint:complexity
+hatch run lint:policy
+hatch run test-cov
+hatch run package-standalone
+```
+
+Optional local autofix pass:
+
+```bat
+hatch run lint:fix
 ```
 
 ### Lockfile Workflow
